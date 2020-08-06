@@ -1,0 +1,57 @@
+body {
+  margin: 0px;
+  text-align: center;
+  /* Center all element that doesn't have width set */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 562.5%;  /* 100% = 16px ; (90px/16px)*100 = 562.5% ////// use px for static font-size or use % for dynamic font-size */
+  margin-top: 0px;
+  /* width: 10%; */
+  /* Another alternative to centering element */
+  margin: 0 auto 0 auto;
+  /* margin: top right bottom left (clock-wise) */
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
